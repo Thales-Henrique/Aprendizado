@@ -1,0 +1,432 @@
+* {
+    color:white;
+    padding: 0;
+}
+h1 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 80px;
+}
+body {
+    background-color:#161617;
+}
+.header_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.header_title h1 {
+    text-align: center;
+}
+.header_banner {
+    display: flex;
+    justify-content: center;
+}
+.header_description1 {
+    display: flex;
+    justify-content: center;
+
+}
+.header_description1 h1 {
+    margin: 0;
+    font-size: 80px;
+}
+.header_description2 {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+.header_description2 h1 {
+    margin:0;
+    font-size: 80px;
+}
+.header_description3 {
+    display: flex;
+    justify-content: center;
+    word-break: break-word;
+    padding: 15px;
+}
+.header_description3 p {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color: #808080;
+}
+.header_price {
+    text-align: center;
+}
+.header_price h1 {
+    font-size: 36px;
+}
+.header_bottom {
+    display: flex;
+    justify-content: center;
+}
+.button_buy {
+    background-color: #00a000;
+    color: #FFF;
+    width: 300px;
+    padding: 5px;
+    border:0;
+    border-radius: 3%;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+}
+.section_title {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.section_title h1 {
+    text-align: center;
+}
+.section_banner {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 33px;
+}
+.section_specification {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.section_specification .s_s_column1 {
+    margin-right: 9%;
+}
+.section_specification .s_s_column2 {
+    margin-left: 9%;
+}
+section .s_s_column1 {
+    order: 2;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    word-break: normal;
+    text-align: center;
+}
+.s_s_column1 p {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 35px;
+    margin-top: -15px;
+}
+.s_s_column2 p {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 35px;
+    margin-top: -15px;
+}
+.s_s_column1_text p {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: #808080;
+}
+section .s_s_column2 {
+    order: 1;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    word-break: normal;
+    text-align: center;
+}
+.section_bottom {
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    margin-bottom: 104px;
+}
+.section_banners {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 53px;
+    margin-bottom: 50px;
+}
+.section_specification {
+    margin-bottom: 10px;
+}
+.section_description1 {
+    display: flex;
+    justify-content: center;
+}
+.section_description2 {
+    display: flex;
+    justify-content: center;
+}
+.section_description1 h1 {
+    margin: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 80px;
+}
+.section_description2 h1 {
+    margin: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 80px;
+}
+.section_description3 {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+.section_description3 p {
+    text-align: center;
+    word-break: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color:#808080;
+}
+.section_bottom {
+    margin: 0;
+}
+.section_bottom_description {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    margin: 0;
+}
+.section_bottom_description h3 {
+    margin-top: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 36px;
+}
+.footer_copy {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+footer .f_c_text {
+    font-size: 14px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+@media (max-width:916px) {
+    .s_banners1 .img8 {
+        width: 500px;
+        height: 500px;
+    }
+    .s_banners2 .img9 {
+        width: 500px;
+        height: 500px;
+    }
+    .button_buy {
+        background-color: #00a000;
+        color: #FFF;
+        width: 300px;
+        height: 50px;
+        padding: 5px;
+        border:0;
+        border-radius: 3%;
+        font-weight: bold;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 25px;
+        text-decoration: none;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+        .header_price h1 {
+            font-size: 40px;
+        }
+        .s_s_column1 p {
+            font-size: 50px;
+        }
+        .s_s_column2 p {
+            font-size: 50px;
+        }
+        .s_s_column1_text p {
+            font-size: 30px;
+        }
+        .s_s_column2_text p {
+            font-size: 30px;
+        }
+        .section_description3 p {
+            font-size: 35px;
+        }
+        .section_title h1 {
+            font-size: 90px;
+        }
+        .header_title h1 {
+            font-size: 90px;
+        }
+}
+@media (max-width:748px) {
+        .header_title h1 {
+            margin-top: 8px;
+        }
+        .section_description1 h1 {
+            text-align: center;
+        }
+        .section_description2 h1 {
+            text-align: center;
+        }
+        .header_description3 p {
+            font-size: 25px;
+        }
+        .header_price h1 {
+            font-size: 30px;
+        }
+        .s_s_column1 p {
+            font-size: 30px;
+        }
+        .s_s_column2 p {
+            font-size: 30px;
+        }
+        .s_s_column1_text p {
+            font-size: 20px;
+        }
+        .s_s_column2_text p {
+            font-size: 20px;
+        }
+        .section_description3 p {
+            font-size: 25px;
+        }
+}
+@media (max-width:600px) {
+        .header_title h1 {
+            font-size: 60px;
+        }
+        .header_description1 h1 {
+            text-align: center;
+            font-size: 65px;
+        }
+        .header_description2 h1 {
+            text-align: center;
+            font-size: 65px;
+        }
+        .section_title h1 {
+            font-size: 60px;
+        }
+        .section_banners {
+            display: flex;
+            justify-content: space-around
+        }
+        .s_banners1 {
+            margin-right: -40%;
+        } 
+        .s_banners2 {
+            margin-right: 5%;
+        }
+        .section_description1 h1 {
+            font-size: 60px;
+        }
+        .section_description2 h1 {
+            font-size: 60px;
+        }
+        .section_description3 p {
+            font-size: 20px;
+        }
+}
+@media (max-width:500px) {
+        .header_title h1 {
+            font-size: 50px;
+        }
+        .header_description1 h1 {
+            font-size: 50px
+        }
+        .header_description2 h1 {
+            font-size: 50px
+        }
+        .section_banners {
+            display: flex;
+            justify-content: space-around
+        }
+        .s_banners1 {
+            margin-right: -65%;
+        } 
+        .s_banners2 {
+            margin-right: 10%;
+        }
+        .section_description1 h1 {
+            font-size: 50px;
+        }
+        .section_description2 h1 {
+            font-size: 50px;
+        }
+}
+@media (max-width:400px) {
+        .header_title h1 {
+            font-size: 55px;
+        }
+        .header_description1 h1 {
+            font-size: 40px;
+        }
+        .header_description2 h1 {
+            font-size: 40px;
+        }
+        .section_title h1 {
+            font-size: 45px;
+        }
+        .s_s_column1 p {
+            font-size: 25px;
+        }
+        .s_s_column2 p {
+            font-size: 25px;
+        }
+        .s_s_column1_text p {
+            font-size: 15px;
+        }
+        .s_s_column2_text p {
+            font-size: 15px;
+        }
+        .section_banners {
+            display: flex;
+            justify-content: space-around
+        }
+        .s_banners1 {
+            margin-right: -90%;
+        } 
+        .s_banners2 {
+            margin-right: 5%;
+        }
+        .section_description1 h1 {
+            font-size: 40px;
+        }
+        .section_description2 h1 {
+            font-size: 40px;
+        }
+        .section_description3 p {
+            font-size: 20px
+        }
+}
+@media (max-width:300px) {
+        .header_title h1 {
+            font-size: 44px;
+        }
+        .header_description1 h1,
+        .header_description2 h1 {
+            font-size: 33px;
+        }
+        .header_description3 p {
+            font-size: 20px;
+        }
+        .header_price h1 {
+            font-size: 24px;
+        }
+        .section_title h1 {
+            font-size: 34px;
+        }
+        .section_banners {
+            display: flex;
+            justify-content: space-around
+        }
+        .s_banners1 {
+            margin-right: -120%;
+        } 
+        .s_banners2 {
+            margin-right: 5%;
+        }
+        .section_description1 h1 {
+            font-size: 30px
+        }
+        .section_description2 h1 {
+            font-size: 30px
+        }
+        .section_description3 p {
+            font-size: 18px;
+        }
+        .section_bottom_description h3 {
+            text-align: center;
+            font-size: 30px;
+        }
+}

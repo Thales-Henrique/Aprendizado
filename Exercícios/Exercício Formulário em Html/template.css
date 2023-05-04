@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+header {
+    display: flex;
+    justify-content: center;
+}
+.form_text {
+    display: flex;
+}
+.form_title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:0;
+    margin-top: 15px;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+body h2 {
+    margin:0;
+    margin-top: 10px;
+}
+body p {
+    margin:0;
+    margin-bottom: 9px;
+    margin-top: 3px;
+}
+form {
+    border:1px solid black;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 15px;
+}
+form .bottom {
+    margin-left: 17%;
+}
+label {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
