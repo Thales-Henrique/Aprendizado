@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+header .logo {
+    font-size: 20px;
+    font-weight: 600;
+}
+header .menu {
+    width: 30px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+header .menu-line {
+    height: 2px;
+    background-color: #333;
+}
+.container {
+    display: flex;
+    height: 100vh;
+}
+.leftside {
+    flex:1;
+    display: flex;
+    align-items: center;
+    padding: 0 20px
+}
+.rightside {
+    flex:1;
+    background-color: rgb(252, 250, 123);
+    background-image: url(../images/hero.png);
+    background-size: cover;
+    background-position: center;
+} 
+.info {
+    color: #000;
+}
+.profession {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 19px;
+}
+.name {
+    font-weight: bold;
+    font-size: 80px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.butttom a {
+    display: inline-block;
+    color: #000;
+    background-color: #FCFA7B;
+    padding: 20px 40px;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    box-shadow: 0 0 10px #444;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.butttom a.light {
+    background-color: #FFF;
+}
+.butttom a:hover {
+    opacity: 0.8;
+}
+footer {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 6px;
+    padding-left: 20px;
+    font-size: 13px;
+    text-decoration: none;
+    color: #000;
+}
+footer a  {
+    color: #000;
+}
+
+@media (max-width:992px) {
+    header {
+        position: initial;
+    }
+    .container {
+        flex-direction: column;
+        height: calc(100vh - 103px);
+    }
+    .leftside {
+        flex: none;
+        padding: 30px 20px;
+        justify-content: center;
+        text-align: center;
+    }
+    footer {
+        position: initial;
+        font-size: 18px;
+        text-align: center;
+    }
+}
+@media (max-width:528px) {
+    .name {
+        font-size: 50px;
+    }
+    .butttom a {
+        display: block;
+        margin-right: 0;
+        margin-bottom: 20px;
+        padding: 10px 5px;
+    }
+    footer {
+        font-size: 14px;
+    }
+}
